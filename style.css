@@ -1481,8 +1481,8 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .publications {
-    max-width: -webkit-calc(100% - (40px / 2));
-    max-width: calc(100% - (40px / 2));
+    max-width: -webkit-calc(90% - (40px / 2));
+    max-width: calc(90% - (40px / 2));
     margin-top: 40px;
     font-family: 'Roboto',sans-serif, Helvetica;
     margin: auto
@@ -2074,8 +2074,8 @@ li {
 
 @media screen and (max-width: 600px) {
     .news {
-        max-width:-webkit-calc(100% - (30px / 2));
-        max-width: calc(100% - (30px / 2))
+        max-width:-webkit-calc(100% - (40px / 2));
+        max-width: calc(100% - (40px / 2))
     }
 }
 
@@ -2100,14 +2100,14 @@ li {
     float: left;
     margin-left: auto;
     margin-right: auto;
-    width: -webkit-calc(25% - (30px / 2));
-    width: calc(25% - (30px / 2))
+    width: -webkit-calc(25% - (40px / 2));
+    width: calc(25% - (40px / 2))
 }
 
 .news-right {
     float: left;
-    width: -webkit-calc(75% - (30px / 2));
-    width: calc(75% - (30px / 2));
+    width: -webkit-calc(75% - (40px / 2));
+    width: calc(75% - (40px / 2));
     margin-left: 5px
 }
 
@@ -2415,5 +2415,4 @@ li {
         font-size:0px
     }
 }
-
 
