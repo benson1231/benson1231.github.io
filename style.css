@@ -2100,14 +2100,14 @@ li {
     float: left;
     margin-left: auto;
     margin-right: auto;
-    width: -webkit-calc(15% - (40px / 2));
-    width: calc(15% - (40px / 2))
+    width: -webkit-calc(25% - (40px / 2));
+    width: calc(25% - (40px / 2))
 }
 
 .news-right {
     float: left;
-    width: -webkit-calc(85% - (40px / 2));
-    width: calc(85% - (40px / 2));
+    width: -webkit-calc(75% - (40px / 2));
+    width: calc(75% - (40px / 2));
     margin-left: 5px
 }
 
@@ -2152,7 +2152,7 @@ li {
 }
 
 .industry {
-    max-width: calc(80% - (40px / 2));
+    max-width: calc(% - (40px / 2));
     margin-left: auto;
     margin-right: auto;
     text-align: center
