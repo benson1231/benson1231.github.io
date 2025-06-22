@@ -1,0 +1,55 @@
+.experience {
+    max-width: 700px;
+    margin: 40px auto;
+    margin-top: 80px;
+    padding: 0 20px;
+    color: #333;
+    scroll-margin-top: 80px;
+}
+
+.exp-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.exp-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.exp-left {
+    width: 30%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.exp-date {
+    margin: 0;
+    color: #9b3022;
+}
+
+.exp-right {
+    width: 65%;
+}
+
+.exp-desc {
+    margin: 4px 0;
+    line-height: 1.5;
+    color: #444;
+}
+
+.exp-position {
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.exp-company {
+    margin: 4px 0;
+    color: #555;
+}
