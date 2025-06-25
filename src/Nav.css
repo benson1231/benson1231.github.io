@@ -1,25 +1,18 @@
 .navbar {
     position: fixed;
-    /* 固定定位 */
     top: 0;
-    /* 置頂 */
     left: 0;
-    /* 從左側開始 */
     width: 100%;
-    /* 寬度撐滿整個視窗 */
     height: 60px;
-    /* 固定高度，方便調整內容 margin */
     background-color: #1a1a1a;
     color: white;
     display: flex;
     align-items: center;
     z-index: 1000;
-    /* 確保在最上層 */
     padding: 0 20px;
     box-sizing: border-box;
 }
 
-/* 其他內部樣式保持不變 */
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
@@ -33,6 +26,16 @@
     user-select: none;
 }
 
+.nav-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* nav-menu 預設為橫向排列 */
 .nav-menu {
     list-style: none;
     display: flex;
@@ -55,10 +58,33 @@
     color: #f0a500;
 }
 
-/* 響應式漢堡選單及其他樣式依需求調整 */
+/* 響應式設計：在手機上改為垂直顯示 */
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
 
-/* 主內容區需加上 margin-top 避免被遮擋 */
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #1a1a1a;
+        width: 100%;
+    }
+
+    .nav-menu.open {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 15px 0;
+        text-align: center;
+    }
+}
+
+/* 主內容區 */
 .main-content {
     margin-top: 80px;
-    /* 與 navbar 高度相同 */
 }
