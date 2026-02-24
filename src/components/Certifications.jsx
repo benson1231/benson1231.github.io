@@ -1,9 +1,11 @@
 import React from "react";
 import "../styles/certifications.css";
+import awsccpImg from "../assets/certifications/aws-ccp.png";
+import awsaifImg from "../assets/certifications/aws-aif.png";
 import medtechImg from "../assets/certifications/medtech.jpeg";
 import genomicImg from "../assets/certifications/GenomicDataScience.jpeg";
-import sasImg from "../assets/certifications/SAS.jpeg";
 import googleImg from "../assets/certifications/GoogleDataAnalytics.jpeg";
+import nextflowImg from "../assets/certifications/nextflow.png";
 import mlImg from "../assets/certifications/MachineLearning.jpeg";
 import dlImg from "../assets/certifications/DeepLearning.jpeg";
 import dsEngineerImg from "../assets/certifications/DataScienceEngineer.jpeg";
@@ -18,19 +20,27 @@ const certifications = [
       "Certified by the Examination Yuan, Taiwan, demonstrating expertise in medical laboratory science, including clinical practices, diagnostic techniques, and quality assurance. Proficient in collaborating with healthcare teams and operating advanced diagnostic equipment.",
   },
   {
+    title: "AWS Certified Cloud Practitioner",
+    image: awsccpImg,
+    description:
+      "Foundational certification demonstrating knowledge of AWS cloud infrastructure, core services, security, and cost management. Experienced in deploying and managing scalable computing environments for bioinformatics workflows, including data storage, compute orchestration, and cloud-based analysis pipelines.",
+    link: "https://cp.certmetrics.com/amazon/en/public/verify/credential/682eafa3cf2d4f1c9e804e9fd0acce02",
+    platform: "AWS",
+  },
+  {
+    title: "AWS Certified AI Practitioner",
+    image: awsaifImg,
+    description:
+      "Certification focused on AI/ML fundamentals on AWS, including model deployment, data pipelines, and responsible AI practices. Applied understanding of integrating machine learning with biomedical data analysis, enabling cloud-based AI workflows for genomic and clinical research.",
+    link: "https://cp.certmetrics.com/amazon/en/public/verify/credential/a63fd0e57d4840098476c18ebc7dc464",
+    platform: "AWS",
+  },
+  {
     title: "Genomic Data Science",
     image: genomicImg,
     description:
       "Advanced certification in genomic data analysis, including NGS data processing, DNA sequencing, bioinformatics tools (BWA, Samtools, Bedtools), and statistical modeling using command line tools and R.",
     link: "https://www.coursera.org/account/accomplishments/specialization/URAWDCK7SI7U",
-    platform: "Coursera",
-  },
-  {
-    title: "SAS Statistical Business Analyst",
-    image: sasImg,
-    description:
-      "Demonstrates proficiency in using SAS software for statistical modeling and data analysis in a business context. Includes hypothesis testing, linear and logistic regression, and model fitting to make data-driven decisions.",
-    link: "https://www.coursera.org/account/accomplishments/professional-cert/T7YLO62RDKNR",
     platform: "Coursera",
   },
   {
@@ -40,6 +50,14 @@ const certifications = [
       "Covers data cleaning, visualization, and analysis using Google Sheets, SQL, Tableau, and R. Focuses on preparing and analyzing data to drive strategic decisions.",
     link: "https://www.coursera.org/account/accomplishments/professional-cert/NT7AGA7NE9GS",
     platform: "Coursera",
+  },
+  {
+    title: "nextflow",
+    image: nextflowImg,
+    description:
+      "Demonstrates expertise in building and managing reproducible bioinformatics workflows using Nextflow. Experienced in orchestrating scalable NGS pipelines, containerized environments (Docker/Conda), and cloud/HPC execution for genomic data analysis.",
+    link: "https://drive.google.com/file/d/1yb5CRI472s6-l-Lr3v6rHY0ttsA8iqDy/view?usp=drive_link",
+    platform: "Seqera",
   },
   {
     title: "Machine Learning/AI Engineer",
