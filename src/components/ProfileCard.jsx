@@ -1,4 +1,4 @@
-import "./profilecard.css";
+import "../styles/profileCard.css";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaBookOpen } from "react-icons/fa6";

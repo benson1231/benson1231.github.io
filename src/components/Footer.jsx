@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "../styles/footer.css";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaBookOpen } from "react-icons/fa6";

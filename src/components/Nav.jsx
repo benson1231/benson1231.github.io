@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./nav.css";
+import "../styles/nav.css";
 
 const menuItems = [
   { href: "#profile", label: "Home" },
