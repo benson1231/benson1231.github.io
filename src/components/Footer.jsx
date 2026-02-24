@@ -4,6 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaBookOpen } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { FaTools } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -36,6 +37,15 @@ function Footer() {
             aria-label="Gitbook"
           >
             <FaBookOpen size={48} />
+          </a>
+          <a
+            href="https://benson1231.github.io/tools/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link tools"
+            aria-label="Tools"
+          >
+            <FaTools size={48} />
           </a>
           <a
             href="mailto:benson106075@gmail.com"
