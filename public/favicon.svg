@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CY favicon">
+  <rect x="6" y="6" width="52" height="52" rx="14" fill="#0b1220"></rect>
+  <rect x="6" y="6" width="52" height="52" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"></rect>
+  <text x="32" y="40" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="26" font-weight="750" fill="#ffffff" letter-spacing="1">CY</text>
+</svg>

@@ -1,16 +1,25 @@
 import React from "react";
 import "../styles/certifications.css";
+import medtechImg from "../assets/certifications/medtech.jpeg";
+import genomicImg from "../assets/certifications/GenomicDataScience.jpeg";
+import sasImg from "../assets/certifications/SAS.jpeg";
+import googleImg from "../assets/certifications/GoogleDataAnalytics.jpeg";
+import mlImg from "../assets/certifications/MachineLearning.jpeg";
+import dlImg from "../assets/certifications/DeepLearning.jpeg";
+import dsEngineerImg from "../assets/certifications/DataScienceEngineer.jpeg";
+import dsImg from "../assets/certifications/DataScience.jpeg";
+import rImg from "../assets/certifications/R_udemy.jpeg";
 
 const certifications = [
   {
     title: "Medical Technologist License",
-    image: "/certifications/medtech.jpeg",
+    image: medtechImg,
     description:
       "Certified by the Examination Yuan, Taiwan, demonstrating expertise in medical laboratory science, including clinical practices, diagnostic techniques, and quality assurance. Proficient in collaborating with healthcare teams and operating advanced diagnostic equipment.",
   },
   {
     title: "Genomic Data Science",
-    image: "/certifications/GenomicDataScience.jpeg",
+    image: genomicImg,
     description:
       "Advanced certification in genomic data analysis, including NGS data processing, DNA sequencing, bioinformatics tools (BWA, Samtools, Bedtools), and statistical modeling using command line tools and R.",
     link: "https://www.coursera.org/account/accomplishments/specialization/URAWDCK7SI7U",
@@ -18,7 +27,7 @@ const certifications = [
   },
   {
     title: "SAS Statistical Business Analyst",
-    image: "/certifications/SAS.jpeg",
+    image: sasImg,
     description:
       "Demonstrates proficiency in using SAS software for statistical modeling and data analysis in a business context. Includes hypothesis testing, linear and logistic regression, and model fitting to make data-driven decisions.",
     link: "https://www.coursera.org/account/accomplishments/professional-cert/T7YLO62RDKNR",
@@ -26,7 +35,7 @@ const certifications = [
   },
   {
     title: "Google Data Analytics",
-    image: "/certifications/GoogleDataAnalytics.jpeg",
+    image: googleImg,
     description:
       "Covers data cleaning, visualization, and analysis using Google Sheets, SQL, Tableau, and R. Focuses on preparing and analyzing data to drive strategic decisions.",
     link: "https://www.coursera.org/account/accomplishments/professional-cert/NT7AGA7NE9GS",
@@ -34,7 +43,7 @@ const certifications = [
   },
   {
     title: "Machine Learning/AI Engineer",
-    image: "/certifications/MachineLearning.jpeg",
+    image: mlImg,
     description:
       "Covers machine learning, neural networks, NLP, and AI deployment using TensorFlow and scikit-learn.",
     link: "https://www.codecademy.com/profiles/Chin-YuLee/certificates/6f8e0510ca91437a847b53aa9e9aa3f1",
@@ -42,7 +51,7 @@ const certifications = [
   },
   {
     title: "Build Deep Learning Models with TensorFlow",
-    image: "/certifications/DeepLearning.jpeg",
+    image: dlImg,
     description:
       "Covers neural networks, CNNs, and RNNs using TensorFlow. Focuses on practical deep learning applications.",
     link: "https://www.codecademy.com/profiles/Chin-YuLee/certificates/5f85c4b9c431a800138a60e0",
@@ -50,7 +59,7 @@ const certifications = [
   },
   {
     title: "Software Engineering for Data Scientists",
-    image: "/certifications/DataScienceEngineer.jpeg",
+    image: dsEngineerImg,
     description:
       "Covers version control, modular code, testing, and deployment for writing scalable and maintainable data science code.",
     link: "https://www.codecademy.com/profiles/Chin-YuLee/certificates/10893677113547f7bc2ec6d950535805",
@@ -58,7 +67,7 @@ const certifications = [
   },
   {
     title: "Data Science Foundations",
-    image: "/certifications/DataScience.jpeg",
+    image: dsImg,
     description:
       "Introduces data manipulation, statistical analysis, visualization, and programming fundamentals for aspiring data scientists.",
     link: "https://www.codecademy.com/profiles/Chin-YuLee/certificates/738a7262ff2b4a49b062c25482dc2549",
@@ -66,7 +75,7 @@ const certifications = [
   },
   {
     title: "R for Data Science",
-    image: "/certifications/R_udemy.jpeg",
+    image: rImg,
     description:
       "Covers R programming, data analysis, and data science techniques, demonstrating practical applications of R.",
     link: "https://www.udemy.com/certificate/UC-fe005206-87a5-4c1f-a879-fd74235157f2/",

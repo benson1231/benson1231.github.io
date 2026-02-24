@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/skills.css";
+import worldcloudImg from "../assets/profile/worldcloud.png";
 
 function Skills() {
   return (
@@ -28,7 +29,7 @@ function Skills() {
             .
           </p>
         </div>
-        <img className="skills-image" src="worldcloud.png" alt="WordCloud" />
+        <img className="skills-image" src={worldcloudImg} alt="WordCloud" />
         <p className="skills-source">
           (Created using{" "}
           <a

@@ -3,12 +3,13 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaBookOpen } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import profileImg from "../assets/profile/profile.jpeg";
 
 function ProfileCard() {
   return (
     <section id ="profile" className="profile-card">
       <div className="profile-left">
-        <img src="./profile.jpeg" alt="Chin-Yu Lee" className="profile-photo" />
+        <img src={profileImg} alt="Chin-Yu Lee" className="profile-photo" />
       </div>
       <div className="profile-right">
         <h1 className="profile-name">Chin-Yu Lee (李清宇)</h1>
