@@ -4,7 +4,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { FaBookOpen } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaTools } from "react-icons/fa";
-import profileImg from "../assets/profile/profile.jpeg";
+import profileImg from "../assets/profile/profile.jpg";
 
 function ProfileCard() {
   return (
