@@ -7,7 +7,7 @@ function AboutMe() {
       <section id="bio" className="bio page-content wrapper">
         <h1 className="md-heading">About Me</h1>
         <p className="bio-body">
-          My name is Ching-Yu Lee, and I graduated from{" "}
+          My name is Cing-Yu Li, and I graduated from{" "}
           <strong>Taipei Medical University</strong> with a degree in{" "}
           <strong>Medical Laboratory Science and Biotechnology</strong>. I am a
           licensed <strong>medical technologist</strong> and hold a master’s
